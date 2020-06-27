@@ -11,10 +11,22 @@
 		1A2634FB24A4C589006E2403 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2634FA24A4C589006E2403 /* Tests_macOS.swift */; };
 		1A2634FD24A4C589006E2403 /* PunchCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2634D424A4C588006E2403 /* PunchCardApp.swift */; };
 		1A2634FE24A4C589006E2403 /* PunchCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2634D424A4C588006E2403 /* PunchCardApp.swift */; };
-		1A2634FF24A4C589006E2403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2634D524A4C588006E2403 /* ContentView.swift */; };
-		1A26350024A4C589006E2403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2634D524A4C588006E2403 /* ContentView.swift */; };
+		1A2634FF24A4C589006E2403 /* TimeSheetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2634D524A4C588006E2403 /* TimeSheetList.swift */; };
+		1A26350024A4C589006E2403 /* TimeSheetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2634D524A4C588006E2403 /* TimeSheetList.swift */; };
 		1A26350124A4C589006E2403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2634D624A4C589006E2403 /* Assets.xcassets */; };
 		1A26350224A4C589006E2403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2634D624A4C589006E2403 /* Assets.xcassets */; };
+		1A7CD41124A7F37900DB28AA /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CD41024A7F37900DB28AA /* CapsuleButton.swift */; };
+		1A7CD41224A7F37900DB28AA /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CD41024A7F37900DB28AA /* CapsuleButton.swift */; };
+		1A7CD41424A7F48B00DB28AA /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CD41324A7F48B00DB28AA /* TrackingView.swift */; };
+		1A7CD41524A7F48B00DB28AA /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CD41324A7F48B00DB28AA /* TrackingView.swift */; };
+		1AF75D6124A7E6B200E743F8 /* TimeSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6024A7E6B200E743F8 /* TimeSheetRow.swift */; };
+		1AF75D6224A7E6B200E743F8 /* TimeSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6024A7E6B200E743F8 /* TimeSheetRow.swift */; };
+		1AF75D6424A7E80D00E743F8 /* TimeSheetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6324A7E80D00E743F8 /* TimeSheetDetail.swift */; };
+		1AF75D6524A7E80D00E743F8 /* TimeSheetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6324A7E80D00E743F8 /* TimeSheetDetail.swift */; };
+		1AF75D6824A7E83C00E743F8 /* TimeSheetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6724A7E83C00E743F8 /* TimeSheetProvider.swift */; };
+		1AF75D6924A7E83C00E743F8 /* TimeSheetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6724A7E83C00E743F8 /* TimeSheetProvider.swift */; };
+		1AF75D6E24A7E9F600E743F8 /* Sequence+Indexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6D24A7E9F600E743F8 /* Sequence+Indexed.swift */; };
+		1AF75D6F24A7E9F600E743F8 /* Sequence+Indexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF75D6D24A7E9F600E743F8 /* Sequence+Indexed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		1A2634D424A4C588006E2403 /* PunchCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchCardApp.swift; sourceTree = "<group>"; };
-		1A2634D524A4C588006E2403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A2634D524A4C588006E2403 /* TimeSheetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetList.swift; sourceTree = "<group>"; };
 		1A2634D624A4C589006E2403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A2634DB24A4C589006E2403 /* PunchCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunchCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A2634DE24A4C589006E2403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		1A2634F624A4C589006E2403 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A2634FA24A4C589006E2403 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1A2634FC24A4C589006E2403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7CD41024A7F37900DB28AA /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		1A7CD41324A7F48B00DB28AA /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		1AF75D6024A7E6B200E743F8 /* TimeSheetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetRow.swift; sourceTree = "<group>"; };
+		1AF75D6324A7E80D00E743F8 /* TimeSheetDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetDetail.swift; sourceTree = "<group>"; };
+		1AF75D6724A7E83C00E743F8 /* TimeSheetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetProvider.swift; sourceTree = "<group>"; };
+		1AF75D6D24A7E9F600E743F8 /* Sequence+Indexed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Indexed.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +116,11 @@
 		1A2634D324A4C588006E2403 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1AF75D6C24A7E9E500E743F8 /* Helpers */,
+				1AF75D6B24A7E85D00E743F8 /* Screens */,
+				1AF75D6A24A7E85200E743F8 /* Views */,
+				1AF75D6624A7E83200E743F8 /* Store */,
 				1A2634D424A4C588006E2403 /* PunchCardApp.swift */,
-				1A2634D524A4C588006E2403 /* ContentView.swift */,
 				1A2634D624A4C589006E2403 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +170,41 @@
 				1A2634FC24A4C589006E2403 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		1AF75D6624A7E83200E743F8 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1AF75D6724A7E83C00E743F8 /* TimeSheetProvider.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		1AF75D6A24A7E85200E743F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AF75D6024A7E6B200E743F8 /* TimeSheetRow.swift */,
+				1A7CD41024A7F37900DB28AA /* CapsuleButton.swift */,
+				1A7CD41324A7F48B00DB28AA /* TrackingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AF75D6B24A7E85D00E743F8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1A2634D524A4C588006E2403 /* TimeSheetList.swift */,
+				1AF75D6324A7E80D00E743F8 /* TimeSheetDetail.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1AF75D6C24A7E9E500E743F8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1AF75D6D24A7E9F600E743F8 /* Sequence+Indexed.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +364,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2634FF24A4C589006E2403 /* ContentView.swift in Sources */,
+				1A7CD41124A7F37900DB28AA /* CapsuleButton.swift in Sources */,
+				1AF75D6E24A7E9F600E743F8 /* Sequence+Indexed.swift in Sources */,
+				1A2634FF24A4C589006E2403 /* TimeSheetList.swift in Sources */,
+				1A7CD41424A7F48B00DB28AA /* TrackingView.swift in Sources */,
+				1AF75D6124A7E6B200E743F8 /* TimeSheetRow.swift in Sources */,
 				1A2634FD24A4C589006E2403 /* PunchCardApp.swift in Sources */,
+				1AF75D6824A7E83C00E743F8 /* TimeSheetProvider.swift in Sources */,
+				1AF75D6424A7E80D00E743F8 /* TimeSheetDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +379,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A26350024A4C589006E2403 /* ContentView.swift in Sources */,
+				1A7CD41224A7F37900DB28AA /* CapsuleButton.swift in Sources */,
+				1AF75D6F24A7E9F600E743F8 /* Sequence+Indexed.swift in Sources */,
+				1A26350024A4C589006E2403 /* TimeSheetList.swift in Sources */,
+				1A7CD41524A7F48B00DB28AA /* TrackingView.swift in Sources */,
+				1AF75D6224A7E6B200E743F8 /* TimeSheetRow.swift in Sources */,
 				1A2634FE24A4C589006E2403 /* PunchCardApp.swift in Sources */,
+				1AF75D6924A7E83C00E743F8 /* TimeSheetProvider.swift in Sources */,
+				1AF75D6524A7E80D00E743F8 /* TimeSheetDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
